@@ -11,8 +11,8 @@ public class Library {
     }
     public void displayBooks() {
         System.out.println("Книги которые содержаться в библиотеке: ");
-        for(String i : this.books) {
-            System.out.println(i);
+        for(int i=0;i<books.size();i++){
+            System.out.println((i+1)+")"+books.get(i));
         }
     }
 }
