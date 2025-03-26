@@ -28,7 +28,7 @@ public class Main {
             }
         }
         //Проверка, присутствуют ли строки (>5 с цифрами)
-        if (lines.size()==0){
+        if (lines.isEmpty()){
             System.out.println("Строки длинной больше пяти (Содержащие цифры) - отсутствуют");
         }
         else{
